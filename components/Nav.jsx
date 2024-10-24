@@ -54,6 +54,7 @@ const Nav = () => {
             </Link>
           </div>
         ) : (
+          // Providers used here is for signin functionality
           <>
             {providers &&
               Object.values(providers).map((provider) => (
@@ -116,6 +117,7 @@ const Nav = () => {
           </div>
         ) : (
           <>
+            //Providers used here is for signin functionality
             {providers &&
               Object.values(providers).map((provider) => (
                 <button
